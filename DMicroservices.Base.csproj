@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/serhatboyraz/dotnet-microservices</RepositoryUrl>
+    <Authors>Serhat Boyraz</Authors>
+    <Company>Detaysoft</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleMicroservices.Utils\DMicroservices.Utils.csproj" />
+    <ProjectReference Include="..\ExampleMicroservies.DataAccess\DMicroservices.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

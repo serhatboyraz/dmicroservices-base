@@ -6,15 +6,12 @@
     <RepositoryUrl>https://github.com/serhatboyraz/dotnet-microservices</RepositoryUrl>
     <Authors>Serhat Boyraz</Authors>
     <Company>Detaysoft</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DMicroservices.DataAccess" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ExampleMicroservices.Utils\DMicroservices.Utils.csproj" />
-    <ProjectReference Include="..\ExampleMicroservies.DataAccess\DMicroservices.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
